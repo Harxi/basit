@@ -9,6 +9,10 @@ body {
     background: #21232B;
 }
 
+font {
+    white-space: pre;
+}
+
 .title {
     background: #FF0055;
     height: 30%;
