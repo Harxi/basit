@@ -9,10 +9,6 @@ body {
     background: #21232B;
 }
 
-font {
-    white-space: pre;
-}
-
 .title {
     background: #FF0055;
     height: 30%;
@@ -41,6 +37,7 @@ a {
 }
 
 .code {
+    white-space: pre;
     padding: 1em;
     margin: 2em;
     margin-bottom: 2em;
