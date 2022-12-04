@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>BasitMachine</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <div align="center">
+        <h2 class="title" align="center"><b>BasitMachine</b></h2>
+    </div>
+    <div>
+        <h2 align="center">What is this?</h2>
+            <div class="table">
+                <p align="center"><b>This is virtual machine typed in python<br>with bas1x architecture and bmasm assembler</b></p>
+            </div>
+        <h2 align="center">Example</h2>
+            <div class="code">
+                <p><b>
+                    <font color="8BE9FD">push</font>
+                    <font color="50AB70">"Hello, World"</font>
+                    <font color="6272A4">; Push to stack string</font><br>
+                    <font color="8BE9FD">send</font> {<br>
+                    
+    <font color="8BE9FD">pop</font> <font color="50AB70">chr</font> 
+    <font color="6272A4">; pop char from stack to register chr</font><br>
+    <font color="8BE9FD">int</font> <font color="50AB70">1</font> <font color="6272A4">; function of basitmachine print to console symbol from register chr value is number from ascii table</font> <br>
+} <font color="6272A4">; point</font><br>
+<font color="8BE9FD">jmp</font> <font color="50AB70">send</font>  <font color="6272A4">; jmp(not really a jump, more like a call) to send symbol</font><br>
+<font color="8BE9FD">goto</font> <font color="50AB70">2, sp</font>  <font color="6272A4">; jmp to 2 instruction from ast and repeat sp register times</font><br>
+                </b></p>
+            </div>
+    </div>
+    <div style="height:0px;
+width:50%;
+border-top: 1px solid #2f2f3e;
+border-bottom: solid 2px #2f2f3e;
+margin: auto;
+margin-bottom: 2em;
+padding-left:10px">
+</div>
+    <footer align="center">
+        <a href="ru.html">Russian</a>
+        <a href="eng.html">English |</a>
+        <a target="_blank" rel="noopener noreferrer" href="https://github.com/Harxi/BasitMachine">GitHub</a>
+        <a target="_blank" rel="noopener noreferrer" href="https://dsc.gg/whitecore">Discord</a>
+        <br>
+        <br>
+        <font color="646f85">Copyright (c) HARXI 2022-2023</font>
+    </footer>
+</body>
+</html>

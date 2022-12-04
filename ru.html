@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>BasitMachine</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <div align="center">
+        <h2 class="title" align="center"><b>BasitMachine</b></h2>
+    </div>
+    <div>
+        <h2 align="center">Что это такое?</h2>
+            <div class="table">
+                <p align="center"><b>Это виртуальная машина написаная на языке программирования python<br>со своей архитектурой bas1x и ассемблером bmasm</b></p>
+            </div>
+        <h2 align="center">Пример</h2>
+            <div class="code">
+                <p><b>
+                    <font color="8BE9FD">push</font>
+                    <font color="50AB70">"Hello, World"</font>
+                    <font color="6272A4">; Вставляет в стек строку</font><br>
+                    <font color="8BE9FD">send</font> {<br>
+                    
+    <font color="8BE9FD">pop</font> <font color="50AB70">chr</font> 
+    <font color="6272A4">; Достает символ из стека в регистр chr</font><br>
+    <font color="8BE9FD">int</font> <font color="50AB70">1</font> <font color="6272A4">; Функция basiachine выводит символ в консоль из регистра chr значение которого это номер из ascii таблицы</font> <br>
+} <font color="6272A4">; Метка</font><br>
+<font color="8BE9FD">jmp</font> <font color="50AB70">send</font>  <font color="6272A4">; Прыжок(не совсем прыжок, скорее вызов) для вызова метки send</font><br>
+<font color="8BE9FD">goto</font> <font color="50AB70">2, sp</font>  <font color="6272A4">; Прыжок во 2 инструкцию из ast и повторить значение регистра sp раз</font><br>
+                </b></p>
+            </div>
+    </div>
+    <div style="height:0px;
+width:50%;
+border-top: 1px solid #2f2f3e;
+border-bottom: solid 2px #2f2f3e;
+margin: auto;
+margin-bottom: 2em;
+padding-left:10px">
+</div>
+    <footer align="center">
+        <a href="ru.html">Russian</a>
+        <a href="eng.html">English |</a>
+        <a target="_blank" rel="noopener noreferrer" href="https://github.com/Harxi/BasitMachine">GitHub</a>
+        <a target="_blank" rel="noopener noreferrer" href="https://dsc.gg/whitecore">Discord</a>
+        <br>
+        <br>
+        <font color="646f85">Copyright (c) HARXI 2022-2023</font>
+    </footer>
+</body>
+</html>
