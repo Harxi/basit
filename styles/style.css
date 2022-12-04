@@ -35,9 +35,11 @@ a {
     padding: 1em;
     margin-bottom: 2em;
 }
+.tabs {
+    white-space: pre;
+}
 
 .code {
-    white-space: pre;
     padding: 1em;
     margin: 2em;
     margin-bottom: 2em;
