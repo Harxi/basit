@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=PT+Mono&display=swap');
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background: #21232B;
+}
+
+.title {
+    width: 100%;
+    background: #FF0055;
+    height: 30%;
+    padding: 1em;
+    color: #21232B;
+    margin-bottom: 2em;
+}
+
+h2 {
+   color: #FFFFFF;
+}
+
+p {
+    color: #FFFFFF;
+}
+
+a {
+    color: #646f85;
+    text-decoration: none;
+}
+
+.table {
+    padding: 1em;
+    margin-bottom: 2em;
+}
+
+.code {
+    padding: 1em;
+    margin-bottom: 2em;
+    margin-top: 2em;
+    margin-left: 2em;
+    /*border: 2px solid #2b3039;*/
+    font-family: 'PT Mono', monospace;
+    background: #282a36;
+    border-radius: 20px;
+}
