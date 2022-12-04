@@ -27,9 +27,9 @@
                     <font color="6272A4">; Вставляет в стек строку</font><br>
                     <font color="8BE9FD">send</font> {<br>
                     
-    <font color="8BE9FD">    pop</font> <font color="50AB70">chr</font> 
+    <font color="8BE9FD" class="tabs">    pop</font> <font color="50AB70">chr</font> 
     <font color="6272A4">; Достает символ из стека в регистр chr</font><br>
-    <font color="8BE9FD">    int</font> <font color="50AB70">1</font> <font color="6272A4">; Функция basiachine выводит символ в консоль из регистра chr значение которого это номер из ascii таблицы</font> <br>
+    <font color="8BE9FD" class="tabs">    int</font> <font color="50AB70">1</font> <font color="6272A4">; Функция basiachine выводит символ в консоль из регистра chr значение которого это номер из ascii таблицы</font> <br>
 } <font color="6272A4">; Метка</font><br>
 <font color="8BE9FD">jmp</font> <font color="50AB70">send</font>  <font color="6272A4">; Прыжок(не совсем прыжок, скорее вызов) для вызова метки send</font><br>
 <font color="8BE9FD">goto</font> <font color="50AB70">2, sp</font>  <font color="6272A4">; Прыжок во 2 инструкцию из ast и повторить значение регистра sp раз</font><br>
@@ -42,6 +42,7 @@ border-top: 1px solid #2f2f3e;
 border-bottom: solid 2px #2f2f3e;
 margin: auto;
 margin-bottom: 2em;
+background: #2f2f3e;
 padding-left:10px">
 </div>
     <footer align="center">
