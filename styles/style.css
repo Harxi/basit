@@ -38,9 +38,8 @@ a {
 
 .code {
     padding: 1em;
+    margin: auto;
     margin-bottom: 2em;
-    margin-top: 2em;
-    margin-left: 2em;
     /*border: 2px solid #2b3039;*/
     font-family: 'PT Mono', monospace;
     background: #282a36;
