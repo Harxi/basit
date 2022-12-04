@@ -10,10 +10,10 @@ body {
 }
 
 .title {
-    width: 100%;
     background: #FF0055;
     height: 30%;
     padding: 1em;
+    padding-inline: 0
     color: #21232B;
     margin-bottom: 2em;
 }
