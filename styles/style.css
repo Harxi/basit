@@ -45,7 +45,7 @@ a {
     margin: 2em;
     margin-bottom: 2em;
     /*border: 2px solid #2b3039;*/
-    font-family: 'PT Mono', monospace;
+    font-family: monospace;
     background: #282a36;
     border-radius: 20px;
 }
